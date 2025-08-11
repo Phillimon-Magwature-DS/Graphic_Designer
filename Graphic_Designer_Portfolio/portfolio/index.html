@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Mr Pee - Designer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="../index.html" class="logo">
+        <img src="../images/logo.png" alt="Mr Pee - Designer Logo">
+        <span>Mr Pee - Designer</span>
+      </a>
+      
+      <button class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link active">Portfolio</a></li>
+          <li class="nav-item"><a href="../services.html" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="../testimonials.html" class="nav-link">Testimonials</a></li>
+          <li class="nav-item"><a href="../blog.html" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Portfolio Hero -->
+  <section class="page-hero" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero-bg.jpg') no-repeat center center/cover; height: 400px; display: flex; align-items: center; text-align: center; color: var(--white-color);">
+    <div class="container">
+      <h1 style="font-size: 3rem; margin-bottom: 1rem;">My Portfolio</h1>
+      <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto;">A collection of my best design work across various industries and media.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio-section" style="padding: 5rem 0;">
+    <div class="container">
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="print">Print</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="packaging">Packaging</button>
+        <button class="filter-btn" data-filter="illustration">Illustration</button>
+      </div>
+      
+      <div class="portfolio-grid">
+        <!-- Branding Projects -->
+        <div class="portfolio-item" data-category="branding">
+          <img src="project1.jpg" alt="EcoLife Brand Identity" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Goal Anna Envelope</h3>
+            <p class="portfolio-category">Branding</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="branding">
+          <img src="project2.jpg" alt="Urban Café Logo" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Tariro Susan Logo</h3>
+            <p class="portfolio-category">Branding</p>
+          </div>
+        </div>
+        
+        <!-- Print Projects -->
+        <div class="portfolio-item" data-category="print">
+          <img src="project3.jpg" alt="Premium Business Cards" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Premium Business Cards</h3>
+            <p class="portfolio-category">Print Design</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="print">
+          <img src="project4.jpg" alt="Corporate Brochure" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Property Brochure</h3>
+            <p class="portfolio-category">Print Design</p>
+          </div>
+        </div>
+        
+        <!-- Web Projects -->
+        <div class="portfolio-item" data-category="web">
+          <img src="project5.jpg" alt="TechSolutions Website" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">TechSolutions Website</h3>
+            <p class="portfolio-category">Web Design</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="web">
+          <img src="project6.jpg" alt="Fitness App UI" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Fitness App UI</h3>
+            <p class="portfolio-category">Web Design</p>
+          </div>
+        </div>
+        
+        <!-- Packaging Projects -->
+        <div class="portfolio-item" data-category="packaging">
+          <img src="project7.jpg" alt="Organic Skincare Line" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Organic Skincare Product</h3>
+            <p class="portfolio-category">Packaging Design</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="packaging">
+          <img src="project8.jpg" alt="Gourmet Coffee Packaging" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Gourmet Coffee Packaging</h3>
+            <p class="portfolio-category">Packaging Design</p>
+          </div>
+        </div>
+        
+        <!-- Illustration Projects -->
+        <div class="portfolio-item" data-category="illustration">
+          <img src="project9.jpg" alt="Children's Book Illustrations" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Book Shop Illustrations</h3>
+            <p class="portfolio-category">Illustration</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="illustration">
+          <img src="project10.jpg" alt="Character Design Series" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Solar Panel</h3>
+            <p class="portfolio-category">Packaging Design</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="branding">
+          <img src="project11.jpg" alt="Startup Brand Identity" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Fashion Store Flyer</h3>
+            <p class="portfolio-category">Branding</p>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="print">
+          <img src="project12.jpg" alt="Event Flyer Design" class="portfolio-img">
+          <div class="portfolio-overlay">
+            <h3 class="portfolio-title">Event Flyer Design</h3>
+            <p class="portfolio-category">Print Design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section" style="background-color: var(--primary-color); padding: 4rem 0; color: var(--white-color);">
+    <div class="container">
+      <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">Like What You See?</h2>
+        <p style="margin-bottom: 2rem; font-size: 1.1rem;">I'm currently accepting new projects and would love to hear about yours. Let's create something amazing together!</p>
+        <a href="../contact.html" class="btn" style="background-color: var(--white-color); color: var(--primary-color);">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h3>Mr Pee - Designer</h3>
+          <p>Bringing ideas to life through exceptional design solutions that communicate, engage, and inspire.</p>
+          <div class="social-links" style="margin-top: 1.5rem;">
+            <a href="https://www.facebook.com/profile.php?id=61575153890122" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/MrPee_DSxGD?t=i6u9H6y07Jtd8IBVhSHbtg&s=09" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/peemagwature?igsh=YWJpaXRxaHF3cjd1" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/peemagwature?igsh=YWJpaXRxaHF3cjd1" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.behance.net/phillimmagwatu/info" class="social-link"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="../services.html">Services</a></li>
+            <li><a href="../testimonials.html">Testimonials</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul class="footer-links">
+            <li><a href="../services.html">Logo Design</a></li>
+            <li><a href="../services.html">Brand Identity</a></li>
+            <li><a href="../services.html">Print Design</a></li>
+            <li><a href="../services.html">Web Design</a></li>
+            <li><a href="../services.html">Packaging Design</a></li>
+            <li><a href="../services.html">Social Media Graphics</a></li>
+            <li><a href="../services.html">Illustration</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <ul class="footer-links">
+            <li><i class="fas fa-map-marker-alt"></i> 3109 Senga Infill, Gweru, Zimbabwe</li>
+            <li><i class="fas fa-phone"></i> +263 78 612 6690</li>
+            <li><i class="fas fa-envelope"></i> magwaturephillimon07@gmail.com</li>
+            <li><i class="fas fa-clock"></i> Mon-Sat: 24 hours</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Mr Pee - Designer. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script>
+    // Mobile Navigation
+    const hamburger = document.querySelector('.hamburger');
+    const nav = document.querySelector('.nav');
+    const navList = document.querySelector('.nav-list');
+    
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navList.classList.toggle('active');
+    });
+    
+    // Close mobile menu when clicking on a nav link
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navList.classList.remove('active');
+      });
+    });
+    
+    // Sticky Header
+    window.addEventListener('scroll', () => {
+      const header = document.querySelector('.header');
+      header.classList.toggle('scrolled', window.scrollY > 0);
+      
+      // Back to Top Button
+      const backToTop = document.querySelector('.back-to-top');
+      backToTop.classList.toggle('active', window.scrollY > 500);
+    });
+    
+    // Portfolio Filter
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+    
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Remove active class from all buttons
+        filterBtns.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        btn.classList.add('active');
+        
+        const filter = btn.getAttribute('data-filter');
+        
+        portfolioItems.forEach(item => {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
